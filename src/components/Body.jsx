@@ -1,8 +1,18 @@
+import { useState } from "react";
 import "./body.css";
 
 
 
-const body = () => {
+const Body = ({dates}) => {
+  console.log("Dates: ", dates.toString())
+  const days = dates.getDate()
+  const minutes = dates.getMinutes()
+  const hours = dates.getHours()
+  const seconds = dates.getSeconds()
+
+  const [hour, setHours] = useState("second")
+
+
   return (
     <>
       <div className="body">
@@ -49,4 +59,4 @@ const body = () => {
   );
 };
 
-export default body;
+export default Body;
