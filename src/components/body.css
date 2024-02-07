@@ -1,0 +1,75 @@
+.body{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .content p{
+    font-family: mountains;
+    font-size: 120px;
+    color: rgb(28, 226, 210);
+    margin: 10px;
+}
+
+.body .content{
+    text-align: center;
+}
+
+.body .content .date span{
+    font-size: 30px;
+}
+
+.body .time{
+    /* border: 1px solid red; */
+    width: 70vh;
+    height: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.body .time div{
+    height: 100px;
+    width: 25%;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+.body .time div p{
+    font-size: 80px;
+    margin: 0px 0px 2px 0px;
+}
+
+
+.body .time div span{
+    font-size: 20px;
+}
+
+
+.body .buttons button{
+    height: 60px;
+    width: 186px;
+    margin: 168px 10px 50px 35px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.body .buttons button:hover{
+    cursor: pointer;
+}
+
+.body .buttons button:nth-child(1){
+    border: 3px solid rgba(28, 226, 209, 0.55);
+}
+
+.body .buttons button:nth-child(2){
+    background : linear-gradient(rgba(28, 226, 209), rgb(35, 204, 153));
+}
+
+.body .buttons button:nth-child(1):hover{
+    background : linear-gradient(rgba(28, 226, 209), rgb(35, 204, 153));
+}
